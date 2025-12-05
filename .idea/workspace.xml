@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1da1b26-998a-45cc-b4c2-9ddfc33be5b9" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/nuzip.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intelliJ/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/service/NewsAnalysisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/utils/PythonExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intelliJ/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nuzip.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelliJ/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/controller/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/model/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/service/NewsCollectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/service/NewsCollectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/main/java/com/highlight/nuzip/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelliJ/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/news_analyzer/news_analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/main/resources/news_analyzer.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/intelliJ">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/nuzip_backend/IntelliJ">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nuzip" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="363GsPUpZztv6ZBZYAg5SaUpLIJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.IntelliJ [:com.highlight.nuzip.NuzipApplication.main()].executor": "Run",
+    "Gradle.intelliJ [:com.highlight.nuzip.NuzipApplication.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.nuzip.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Win11User/Desktop/nuzip_backend",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.21635611"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Win11User\Desktop\nuzip_backend\intelliJ\src\main\resources" />
+      <recent name="C:\Users\Win11User\Desktop\nuzip_backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.NuzipApplication">
+    <configuration name="NuzipApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.highlight.nuzip.NuzipApplication" />
+      <module name="nuzip.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.highlight.nuzip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start All" type="CompoundRunConfigurationType">
+      <toRun name="nuzip_python" type="PythonConfigurationType" />
+      <toRun name="NuzipApplication_java" type="Application" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="복합.Start All" />
+      <item itemvalue="애플리케이션.NuzipApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.NuzipApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="e1da1b26-998a-45cc-b4c2-9ddfc33be5b9" name="변경" comment="" />
+      <created>1764228049393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764228049393</updated>
+    </task>
+    <servers />
+  </component>
+</project>
