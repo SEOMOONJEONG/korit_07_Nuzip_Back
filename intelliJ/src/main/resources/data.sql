@@ -1,0 +1,9 @@
+INSERT INTO category (name, is_active_for_collection) VALUES ('전체', 1);
+INSERT INTO category (name, is_active_for_collection) VALUES ('정치', 1);
+INSERT INTO category (name, is_active_for_collection) VALUES ('사회', 1);
+INSERT INTO category (name, is_active_for_collection) VALUES ('생활ㆍ문화', 1);
+INSERT INTO category (name, is_active_for_collection) VALUES ('ITㆍ과학', 1);
+INSERT INTO category (name, is_active_for_collection) VALUES ('경제', 1);
+INSERT INTO category (name, is_active_for_collection) VALUES ('세계', 1);
+INSERT INTO category (name, is_active_for_collection) VALUES ('스포츠', 1);
+INSERT INTO category (name, is_active_for_collection) VALUES ('연예', 1);

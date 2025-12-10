@@ -1,0 +1,74 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.3.0' // 버전 통일
+    id 'io.spring.dependency-management' version '1.1.5'
+}
+
+group = 'com.highlight'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+    google()
+}
+
+dependencies {
+    // --- [Web & Core] ---
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-validation' // Validation 추가
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux' // WebClient (Naver API)
+
+    // --- [Security & Auth] ---
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client' // OAuth2
+
+    // JWT (jjwt 0.12.x 이상 최신 버전 사용 권장, 코드 호환성 위해 0.11~0.12 대역 혹은 작성하신 0.13.0 사용)
+    implementation 'io.jsonwebtoken:jjwt-api:0.13.0'
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.13.0'
+    runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.13.0'
+
+    // Google Token Verifier
+    implementation 'com.google.api-client:google-api-client:2.2.0' // 버전 최신화
+    implementation 'com.google.http-client:google-http-client-jackson2:1.43.3'
+
+    // --- [AI & Crawling] ---
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'org.jsoup:jsoup:1.17.2' // 기사 크롤링
+
+    // --- [DB & Utils] ---
+    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+    // --- [Documentation] ---
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+
+    // Rest
+    implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+
+    // --- [Test] ---
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+    implementation 'org.apache.commons:commons-text:1.11.0'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
